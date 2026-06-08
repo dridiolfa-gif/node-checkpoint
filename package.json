@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello": "node hello-world.js",
+    "dev": "node server.js",
+    "create-welcome": "node create-welcome.js",
+    "read-hello": "node read-hello.js",
+    "password": "node password-generator.js",
+    "email": "node email-sender.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "generate-password": "^1.7.1",
+    "nodemailer": "^8.0.10"
+  }
+}
